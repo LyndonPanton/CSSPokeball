@@ -1,0 +1,92 @@
+/* Global //////////////////// */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+/* Pokéball ////////////////// */
+#bottom {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 50px;
+    top: 227px;
+    left: 90px;
+    z-index: 0;
+    background-color: #FFFFFF;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+#circle-inner {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: 215px;
+    left: 141px;
+    z-index: 3;
+    background-color: #FFFFFF;
+    border: 1px #888888 solid;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+#circle-inner:active {
+    background-color: #FF0000;
+}
+
+#circle-middle {
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 26px;
+    top: 212px;
+    left: 137px;
+    z-index: 2;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+#circle-outer {
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 35px;
+    top: 208px;
+    left: 132px;
+    z-index: 1;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+#middle {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 12px;
+    top: 217px;
+    left: 90px;
+    z-index: 0;
+    background-color: #000000;
+}
+
+#pokeball {
+    display: block;
+}
+
+#top {
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 100px;
+    top: 170px;
+    left: 90px;
+    z-index: 0;
+    background-color: #FF2200;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
